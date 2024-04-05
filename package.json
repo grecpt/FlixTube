@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/grecpt/Flixtube/issues"
   },
-  "homepage": "https://github.com/grecpt/Flixtube#readme"
+  "homepage": "https://github.com/grecpt/Flixtube#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
