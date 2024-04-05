@@ -10,4 +10,4 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 
 ## Creating project
 
-`npm init -y'
+`npm init -y`
