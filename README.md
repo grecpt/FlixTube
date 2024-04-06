@@ -15,3 +15,7 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 `npm install --save express`
 
 `npm install`
+
+Running our simple web server
+
+`node index.js`

@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 
 //Our HTTP server will listen on port 3000.
-const port = 3000
+const port = 4000
 
 //Create a handler for the main HTTP route
 app.get('/', (req, res) => {
