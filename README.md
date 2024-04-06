@@ -8,7 +8,7 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 - Visual Studio Code 12.18.1
 - Node.js 1.46.1
 
-## Creating project
+#### Creating project
 
 `npm init -y`
 
@@ -16,7 +16,7 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 
 `npm install`
 
-Running our simple web server
+#### Running our simple web server
 
 `node index.js`
 
