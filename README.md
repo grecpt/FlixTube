@@ -19,3 +19,5 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 Running our simple web server
 
 `node index.js`
+
+`curl http://localhost:4000`
