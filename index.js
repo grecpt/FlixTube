@@ -11,7 +11,6 @@ const port = 4000
 app.get('/', (req, res) => {
     //This handler prints Hello World! in the web browser.
     res.send('Hello World!')
-
 });
 //Initiates the HTTP server
 app.listen(port, () => {
