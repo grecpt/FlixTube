@@ -1,5 +1,4 @@
 //Loads the Express library for use in our code
-const { error } = require('console');
 const express = require('express')
 const fs = require("fs")
 
