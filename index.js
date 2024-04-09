@@ -10,7 +10,7 @@ const app = express()
 const port = 4000
 
 //Create a handler for the main HTTP route
-app.get('/video', (req, res) => {
+app.get('/videos', (req, res) => {
     //This handler prints Hello World! in the web browser.
     const path = "./videos/SampleVideo_1280x720_1mb.mp4";
     fs.stat(path, error, Stats => {
