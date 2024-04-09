@@ -1,6 +1,6 @@
 //Loads the Express library for use in our code
-const express = require('express')
-const fs = require("fs")
+const express = require('express');
+const fs = require("fs");
 
 //Create an instance of an Express app
 const app = express()
@@ -12,9 +12,9 @@ const port = 4000
 app.get("/videos", (req, res) => {
     //This handler prints Hello World! in the web browser.
     const path = "../videos/SampleVideo_1280x720_1mb.mp4";
-    fs.stat(path, error, stats => {
+    fs.stat(path, (error, stats) => {
         if (err) {
-            console.error("An error occured");
+            console.error("An error occurred");
             res.sendStatus(500);
             return;
         }
