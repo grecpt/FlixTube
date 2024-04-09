@@ -1,5 +1,6 @@
 //Loads the Express library for use in our code
 const express = require('express')
+const fs = require("fs")
 
 //Create an instance of an Express app
 const app = express()
