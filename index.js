@@ -1,5 +1,5 @@
 //Loads the Express library for use in our code
-const express = require("express");
+const express = require("express")
 const fs = require("fs");
 
 //Create an instance of an Express app
@@ -11,8 +11,8 @@ const port = 4000
 //Create a handler for the main HTTP route
 app.get("/video", (req, res) => {
     //This handler prints Hello World! in the web browser.
-    const path = "../videos/SampleVideo_1280x720_1mb.mp4";
-    fs.stat(path, (error, stats) => {
+    const path = "/d/learning-projects/FlixTube/videos/SampleVideo_1280x720_1mb.mp4";
+    fs.stat(path, (err, stats) => {
         if (err) {
             console.error("An error occurred");
             res.sendStatus(500);
