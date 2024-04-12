@@ -11,7 +11,7 @@ const port = 4000
 //Create a handler for the main HTTP route
 app.get("/video", (req, res) => {
     //This handler prints Hello World! in the web browser.
-    const path = "./FlixTube/videos/SampleVideo_1280x720_1mb.mp4/";
+    const path = "../FlixTube/videos/SampleVideo_1280x720_1mb.mp4/";
     fs.stat(path, (err, stats) => {
         if (err) {
             console.error("An error occurred");
