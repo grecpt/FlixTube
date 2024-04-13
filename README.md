@@ -21,3 +21,5 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 `node index.js`
 
 `curl http://localhost:4000`
+
+`export PORT=4000`

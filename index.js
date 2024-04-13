@@ -8,6 +8,7 @@ const app = express()
 //Our HTTP server will listen on port 3000.
 //const port = 4000
 
+
 if (!process.env.PORT) {
     throw new Error(
         "Please specifythe port number for the HTTP serverwith the environment variable PORT.");
