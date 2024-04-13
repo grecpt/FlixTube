@@ -6,12 +6,18 @@ const fs = require("fs");
 const app = express()
 
 //Our HTTP server will listen on port 3000.
-const port = 4000
+//const port = 4000
+
+if (!process.env.PORT) {
+    throw new Error(
+        "Please specifythe port number for the HTTP serverwith the environment variable PORT.");
+}
+const PORT = process.env.PORT;
 
 //Create a handler for the main HTTP route
 app.get("/video", (req, res) => {
     //This handler prints Hello World! in the web browser.
-    const path = "FlixTube/videos/SampleVideo_1280x720_1mb.mp4";
+    const path = "../videos/SampleVideo_1280x720_1mb.mp4";
     fs.stat(path, (err, stats) => {
         if (err) {
             console.error("An error occurred");
@@ -31,7 +37,10 @@ app.get("/video", (req, res) => {
 });
 
 //Initiates the HTTP server
-app.listen(port, () => {
-    //The callback prints a message when the server has started.
-    console.log(`Example app listening on port ${port}`);
-});
+//app.listen(port, () => {
+//The callback prints a message when the server has started.
+//console.log(`Example app listening on port ${port}`);
+//});
+app.listen(PORT, () => {
+    console.log(`Service listening onport ${PORT}`);
+})
