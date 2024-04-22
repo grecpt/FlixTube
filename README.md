@@ -30,6 +30,8 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 $ npm install
 ```
 
+#### Install dependencies, ready for production
+
 ```node
 $ node install --only=production
 ```
