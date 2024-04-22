@@ -23,3 +23,13 @@ Bootstrapping Microservice with Node.js, Docker, Kubernetes with Teraform
 `curl http://localhost:4000`
 
 `export PORT=4000`
+
+#### Install dependencies
+
+```node
+$ npm install
+```
+
+```node
+$ node install --only=production
+```
