@@ -11,7 +11,7 @@ const app = express()
 
 if (!process.env.PORT) {
     throw new Error(
-        "Please specifythe port number for the HTTP serverwith the environment variable PORT.");
+        "Please specify the port number for the HTTP serverwith the environment variable PORT.");
 }
 const PORT = process.env.PORT;
 
